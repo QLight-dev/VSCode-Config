@@ -1,21 +1,21 @@
 {
     "vim.normalModeKeyBindingsNonRecursive": [
-        { "before": ["j"], "after": ["h"] },
-        { "before": ["k"], "after": ["j"] },
-        { "before": ["l"], "after": ["k"] },
-        { "before": [";"], "after": ["l"] }
+        { "before": ["h"], "after": ["j"] },
+        { "before": ["j"], "after": ["k"] },
+        { "before": ["k"], "after": ["l"] },
+        { "before": ["l"], "after": [";"] }
     ],
     "vim.visualModeKeyBindingsNonRecursive": [
-        { "before": ["j"], "after": ["h"] },
-        { "before": ["k"], "after": ["j"] },
-        { "before": ["l"], "after": ["k"] },
-        { "before": [";"], "after": ["l"] }
+        { "before": ["h"], "after": ["j"] },
+        { "before": ["j"], "after": ["k"] },
+        { "before": ["k"], "after": ["l"] },
+        { "before": ["l"], "after": [";"] }
     ],
     "vim.operatorPendingModeKeyBindingsNonRecursive": [
-        { "before": ["j"], "after": ["h"] },
-        { "before": ["k"], "after": ["j"] },
-        { "before": ["l"], "after": ["k"] },
-        { "before": [";"], "after": ["l"] }
+        { "before": ["h"], "after": ["j"] },
+        { "before": ["j"], "after": ["k"] },
+        { "before": ["k"], "after": ["l"] },
+        { "before": ["l"], "after": [";"] }
     ],
     "vim.insertModeKeyBindings": [
         {
