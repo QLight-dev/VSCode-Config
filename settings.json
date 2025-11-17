@@ -1,0 +1,31 @@
+{
+    "vim.normalModeKeyBindingsNonRecursive": [
+        { "before": ["j"], "after": ["h"] },
+        { "before": ["k"], "after": ["j"] },
+        { "before": ["l"], "after": ["k"] },
+        { "before": [";"], "after": ["l"] }
+    ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+        { "before": ["j"], "after": ["h"] },
+        { "before": ["k"], "after": ["j"] },
+        { "before": ["l"], "after": ["k"] },
+        { "before": [";"], "after": ["l"] }
+    ],
+    "vim.operatorPendingModeKeyBindingsNonRecursive": [
+        { "before": ["j"], "after": ["h"] },
+        { "before": ["k"], "after": ["j"] },
+        { "before": ["l"], "after": ["k"] },
+        { "before": [";"], "after": ["l"] }
+    ],
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "j"],
+            "after": ["<Esc>"]
+        }
+    ],
+    "workbench.editor.enablePreview": false,
+    "workbench.colorTheme": "Dark Magic",
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.cursorBlinking": "expand",
+    "workbench.list.smoothScrolling": true
+}
